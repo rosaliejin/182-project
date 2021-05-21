@@ -7,4 +7,5 @@
 5. sequence.fasta -- complete record of the nucleotide sequences corresponding to our accession numbers from Genbank https://www.ncbi.nlm.nih.gov/sites/batchentrez
 6. CodingSeqProtein.txt -- Fasta formatted database of SARS-CoV-2 proteins (downloaded from NCBI). Note1: this is the protein sequence, not nucleotide sequence. Note2: some information may need to be added to the headers manually / by program base on annotation.gff. Don't use it yet.
 7. CodingSeqProteinAnnoHeader.txt -- Fasta formatted database of SARS-CoV-2 proteins protein coding sequence with header replaced by annotation attributes
-8. blastx.txt -- blastx output using CodingSeqProteinAnnoHeader.txt as database and sequence.txt as query sequence.
+8. blastx_e-40.txt -- blastx output using CodingSeqProteinAnnoHeader.txt as database and sequence.txt as query sequence and evalue of 1e-40.
+9. blastx_e-5.txt -- blastx output using CodingSeqProteinAnnoHeader.txt as database and sequence.txt as query sequence and evalue of 1e-5.
