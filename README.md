@@ -9,3 +9,4 @@
 7. CodingSeqProteinAnnoHeader.txt -- Fasta formatted database of SARS-CoV-2 proteins protein coding sequence with header replaced by annotation attributes
 8. blastx_e-40.txt -- blastx output using CodingSeqProteinAnnoHeader.txt as database and sequence.txt as query sequence and evalue of 1e-40.
 9. blastx_e-5.txt -- blastx output using CodingSeqProteinAnnoHeader.txt as database and sequence.txt as query sequence and evalue of 1e-5.
+10. blastx_e-30.txt -- blastx output using CodingSeqProteinAnnoHeader.txt as database and sequence.txt as query sequence and evalue of 1e-30.
