@@ -10,3 +10,5 @@
 8. blastx_e-40.txt -- blastx output using CodingSeqProteinAnnoHeader.txt as database and sequence.txt as query sequence and evalue of 1e-40.
 9. blastx_e-5.txt -- blastx output using CodingSeqProteinAnnoHeader.txt as database and sequence.txt as query sequence and evalue of 1e-5.
 10. blastx_e-30.txt -- blastx output using CodingSeqProteinAnnoHeader.txt as database and sequence.txt as query sequence and evalue of 1e-30.
+11. mutation_hunt_combined.ipynb -- Jupyter notebook that does the mutation hunt
+12. MutationHuntRes.txt -- output of mutation_hunt_combined.ipynb. Format: Mutation:frequencency. Sorted.
